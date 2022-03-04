@@ -278,7 +278,7 @@ const Home: BlitzPage = () => {
             </div>
 
             <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
-              <div className="w-full border border-gray-200 rounded-lg shadow-sm">
+              <div className="w-full border border-gray-200 rounded-lg shadow-sm bg-white">
                 <div className="flex flex-col items-center justify-center p-10">
                   <h2 className="text-lg font-medium">Aaron Chan</h2>
                   <p className="font-medium text-blue-500">Tech Lead - Project Manager</p>
@@ -318,7 +318,7 @@ const Home: BlitzPage = () => {
                 </div>
               </div>
 
-              <div className="w-full border border-gray-200 rounded-lg shadow-sm">
+              <div className="w-full border border-gray-200 rounded-lg shadow-sm bg-white">
                 <div className="flex flex-col items-center justify-center p-10">
                   <h2 className="text-lg font-medium">Kayden Nguyen</h2>
                   <p className="font-medium text-blue-500">UX/UI Designer</p>
@@ -353,7 +353,7 @@ const Home: BlitzPage = () => {
                 </div>
               </div>
 
-              <div className="w-full border border-gray-200 rounded-lg shadow-sm">
+              <div className="w-full border border-gray-200 rounded-lg shadow-sm bg-white">
                 <div className="flex flex-col items-center justify-center p-10">
                   <h2 className="text-lg font-medium">Swati Chourey</h2>
                   <p className="font-medium text-blue-500">Sustainability Manager</p>
@@ -388,7 +388,7 @@ const Home: BlitzPage = () => {
                 </div>
               </div>
 
-              <div className="w-full border border-gray-200 rounded-lg shadow-sm">
+              <div className="w-full border border-gray-200 rounded-lg shadow-sm bg-white">
                 <div className="flex flex-col items-center justify-center p-10">
                   <h2 className="text-lg font-medium">Jexequiel Ravni Arador</h2>
                   <p className="font-medium text-blue-500">Backend Engineer</p>
@@ -423,7 +423,7 @@ const Home: BlitzPage = () => {
                 </div>
               </div>
 
-              <div className="w-full border border-gray-200 rounded-lg shadow-sm">
+              <div className="w-full border border-gray-200 rounded-lg shadow-sm bg-white">
                 <div className="flex flex-col items-center justify-center p-10">
                   <h2 className="text-lg font-medium">Roger Wu</h2>
                   <p className="font-medium text-blue-500">Software Engineer</p>
@@ -458,7 +458,7 @@ const Home: BlitzPage = () => {
                 </div>
               </div>
 
-              <div className="w-full border border-gray-200 rounded-lg shadow-sm">
+              <div className="w-full border border-gray-200 rounded-lg shadow-sm bg-white">
                 <div className="flex flex-col items-center justify-center p-10">
                   <h2 className="text-lg font-medium">Ryan Leong</h2>
                   <p className="font-medium text-blue-500">Software Engineer</p>
