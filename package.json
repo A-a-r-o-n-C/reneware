@@ -1,6 +1,7 @@
 {
   "name": "reneware",
-  "version": "1.0.0",
+  "version": "1.2.0",
+  "author": "Aaron Chan <achan167@myseneca.ca>",
   "scripts": {
     "dev": "blitz dev",
     "build": "blitz build",
