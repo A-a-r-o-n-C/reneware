@@ -5,11 +5,6 @@ import { useCurrentUser } from "app/core/hooks/useCurrentUser"
 import logout from "app/auth/mutations/logout"
 import logo from "public/logo.png"
 
-/*
- * This file is just for a pleasant getting started page for your new app.
- * You can delete everything in here and start from scratch if you like.
- */
-
 const UserInfo = () => {
   const currentUser = useCurrentUser()
   const [logoutMutation] = useMutation(logout)
@@ -50,26 +45,15 @@ const UserInfo = () => {
   }
 }
 
-const Home: BlitzPage = () => {
+const Donate: BlitzPage = () => {
   return (
     <div className="container max-w-7xl mx-auto items-center">
       <main></main>
-
-      <footer>
-        Built by Team AKR3,&nbsp;
-        <a
-          href="https://blitzjs.com?utm_source=blitz-new&utm_medium=app-template&utm_campaign=blitz-new"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by Blitz.js
-        </a>
-      </footer>
     </div>
   )
 }
 
-Home.suppressFirstRenderFlicker = true
-Home.getLayout = (page) => <Layout title="Reneware">{page}</Layout>
+Donate.suppressFirstRenderFlicker = true
+Donate.getLayout = (page) => <Layout title="Donate - Reneware">{page}</Layout>
 
-export default Home
+export default Donate
