@@ -233,7 +233,7 @@ const Home: BlitzPage = () => {
                 </div>
                 <h4 className="text-xl font-medium text-gray-700">Make Informed Purchases</h4>
                 <p className="text-base text-center text-gray-500">
-                  Support eco-friendly companites with high sustainability scores.
+                  Support eco-friendly companies with high sustainability scores.
                 </p>
               </div>
 
