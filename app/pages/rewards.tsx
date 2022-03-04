@@ -5,7 +5,7 @@ import { useCurrentUser } from "app/core/hooks/useCurrentUser"
 import logout from "app/auth/mutations/logout"
 import logo from "public/logo.png"
 
-const Donate: BlitzPage = () => {
+const Rewards: BlitzPage = () => {
   return (
     <div className="container max-w-7xl mx-auto items-center">
       <main></main>
@@ -13,7 +13,7 @@ const Donate: BlitzPage = () => {
   )
 }
 
-Donate.suppressFirstRenderFlicker = true
-Donate.getLayout = (page) => <Layout title="Donate - Reneware">{page}</Layout>
+Rewards.suppressFirstRenderFlicker = true
+Rewards.getLayout = (page) => <Layout title="Rewards - Reneware">{page}</Layout>
 
-export default Donate
+export default Rewards

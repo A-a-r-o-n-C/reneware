@@ -1,5 +1,6 @@
 import { Head, BlitzLayout } from "blitz"
-import Navbar from "../components/Navbar"
+import { Footer } from "../components/Footer"
+import { Navbar } from "../components/Navbar"
 
 const Layout: BlitzLayout<{ title?: string }> = ({ title, children }) => {
   return (
@@ -10,6 +11,7 @@ const Layout: BlitzLayout<{ title?: string }> = ({ title, children }) => {
       </Head>
       <Navbar />
       {children}
+      <Footer />
     </>
   )
 }

@@ -51,7 +51,7 @@ const UserInfo = () => {
 export const Navbar = () => {
   const router = useRouter()
   return (
-    <header className="w-full px-8 text-gray-700 bg-slate-50">
+    <header className="w-full px-8 text-gray-700 bg-transparent">
       <div className="container flex flex-row flex-wrap justify-between py-5 mx-auto lg:flex-row lg:items-center max-w-7xl ">
         <div className="relative flex flex-row justify-between md:flex-row">
           <Link href={Routes.Home()}>
@@ -73,7 +73,7 @@ export const Navbar = () => {
                 Home
               </a>
             </Link>
-            <Link href="/donate">
+            <Link href={Routes.Donate()}>
               <a
                 className={
                   router.pathname === "/donate"
