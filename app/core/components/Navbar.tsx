@@ -84,36 +84,39 @@ export const Navbar = () => {
                 Donate
               </a>
             </Link>
-            <a
-              href="#_"
-              className={
-                router.pathname === "/rewards"
-                  ? "mr-5 px-4 py-2 font-semibold leading-6 text-green-600 bg-transparent rounded-lg hover:bg-gray-200"
-                  : "mr-5 px-4 py-2 font-semibold leading-6 text-gray-600 bg-transparent rounded-lg hover:bg-gray-200"
-              }
-            >
-              Rewards
-            </a>
-            <a
-              href="#_"
-              className={
-                router.pathname === "/analytics"
-                  ? "mr-5 px-4 py-2 font-semibold leading-6 text-green-600 bg-transparent rounded-lg hover:bg-gray-200"
-                  : "mr-5 px-4 py-2 font-semibold leading-6 text-gray-600 bg-transparent rounded-lg hover:bg-gray-200"
-              }
-            >
-              Analytics
-            </a>
-            <a
-              href="#_"
-              className={
-                router.pathname === "/about"
-                  ? "mr-1 px-4 py-2 font-semibold leading-6 text-green-600 bg-transparent rounded-lg hover:bg-gray-200"
-                  : "mr-1 px-4 py-2 font-semibold leading-6 text-gray-600 bg-transparent rounded-lg hover:bg-gray-200"
-              }
-            >
-              About Us
-            </a>
+            <Link href={Routes.Rewards()}>
+              <a
+                className={
+                  router.pathname === "/rewards"
+                    ? "mr-5 px-4 py-2 font-semibold leading-6 text-green-600 bg-transparent rounded-lg hover:bg-gray-200"
+                    : "mr-5 px-4 py-2 font-semibold leading-6 text-gray-600 bg-transparent rounded-lg hover:bg-gray-200"
+                }
+              >
+                Rewards
+              </a>
+            </Link>
+            <Link href="/analytics">
+              <a
+                className={
+                  router.pathname === "/analytics"
+                    ? "mr-5 px-4 py-2 font-semibold leading-6 text-green-600 bg-transparent rounded-lg hover:bg-gray-200"
+                    : "mr-5 px-4 py-2 font-semibold leading-6 text-gray-600 bg-transparent rounded-lg hover:bg-gray-200"
+                }
+              >
+                Analytics
+              </a>
+            </Link>
+            <Link href="/about">
+              <a
+                className={
+                  router.pathname === "/about"
+                    ? "mr-1 px-4 py-2 font-semibold leading-6 text-green-600 bg-transparent rounded-lg hover:bg-gray-200"
+                    : "mr-1 px-4 py-2 font-semibold leading-6 text-gray-600 bg-transparent rounded-lg hover:bg-gray-200"
+                }
+              >
+                About Us
+              </a>
+            </Link>
           </nav>
         </div>
         <div className="hidden items-center ml-1 space-x-6 md:justify-end md:inline-flex">
@@ -153,7 +156,7 @@ export const Navbar = () => {
       >
         <nav className="w-full flex flex-wrap items-center text-base text-center md:mb-0 divide-y divide-slate-800">
           <a
-            href="#_"
+            href="/"
             className={
               router.pathname === "/"
                 ? "w-full px-4 py-2 font-semibold leading-10 text-green-600 bg-transparent hover:bg-gray-200"
@@ -163,7 +166,7 @@ export const Navbar = () => {
             Home
           </a>
           <a
-            href="#_"
+            href="/donate"
             className={
               router.pathname === "/donate"
                 ? "w-full px-4 py-2 font-semibold leading-10 text-green-600 bg-transparent hover:bg-gray-200"
@@ -173,7 +176,7 @@ export const Navbar = () => {
             Donate
           </a>
           <a
-            href="#_"
+            href="/rewards"
             className={
               router.pathname === "/rewards"
                 ? "w-full px-4 py-2 font-semibold leading-10 text-green-600 bg-transparent hover:bg-gray-200"
@@ -183,7 +186,7 @@ export const Navbar = () => {
             Rewards
           </a>
           <a
-            href="#_"
+            href="/analytics"
             className={
               router.pathname === "/analytics"
                 ? "w-full px-4 py-2 font-semibold leading-10 text-green-600 bg-transparent hover:bg-gray-200"
@@ -193,7 +196,7 @@ export const Navbar = () => {
             Analytics
           </a>
           <a
-            href="#_"
+            href="/about"
             className={
               router.pathname === "/about"
                 ? "w-full px-4 py-2 font-semibold leading-10 text-green-600 bg-transparent hover:bg-gray-200"
@@ -203,7 +206,7 @@ export const Navbar = () => {
             About Us
           </a>
           <a
-            href="#_"
+            href="/signup"
             className={
               router.pathname === "/signup"
                 ? "w-full px-4 py-2 font-semibold leading-10 text-green-600 bg-transparent hover:bg-gray-200"
@@ -213,7 +216,7 @@ export const Navbar = () => {
             Sign Up
           </a>
           <a
-            href="#_"
+            href="/login"
             className={
               router.pathname === "/login"
                 ? "w-full px-4 py-2 font-semibold leading-10 text-green-600 bg-transparent hover:bg-gray-200"
