@@ -144,11 +144,11 @@ export const Navbar = () => {
       </div>
       <div
         id="nav_hamburger_menu"
-        className="hidden absolute w-full flex right-0 top-20 md:hidden"
+        className="hidden absolute w-full flex right-0 top-20 md:hidden z-50"
         style={{
-          "backdrop-filter": "blur(10px) saturate(180%)",
-          "-webkit-backdrop-filter": "blur(10px) saturate(180%)",
-          "background-color": "rgba(255, 255, 255, 0.55)",
+          backdropFilter: "blur(10px) saturate(180%)",
+          WebkitBackdropFilter: "blur(10px) saturate(180%)",
+          backgroundColor: "rgba(255, 255, 255, 0.55)",
         }}
       >
         <nav className="w-full flex flex-wrap items-center text-base text-center md:mb-0 divide-y divide-slate-800">

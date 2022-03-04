@@ -1,5 +1,5 @@
 import { Suspense } from "react"
-import { Image, Input, Link, BlitzPage, useMutation, Routes, Script } from "blitz"
+import { Image, Link, BlitzPage, useMutation, Routes, Script } from "blitz"
 import Layout from "app/core/layouts/Layout"
 import { useCurrentUser } from "app/core/hooks/useCurrentUser"
 import logout from "app/auth/mutations/logout"
@@ -75,16 +75,16 @@ const Home: BlitzPage = () => {
                     <input
                       type="text"
                       name="device"
-                      className="block w-full px-4 py-3 mb-4 border border-2 border-transparent border-gray-200 rounded-lg focus:ring focus:ring-green-600 focus:outline-none"
+                      className="block w-full px-4 py-3 mb-4 border-2 border-transparent border-gray-200 rounded-lg focus:ring focus:ring-green-600 focus:outline-none"
                       placeholder="Device Name"
                     ></input>
                     <input
                       type="email"
                       name="email"
-                      className="block w-full px-4 py-3 mb-4 border border-2 border-transparent border-gray-200 rounded-lg focus:ring focus:ring-green-600 focus:outline-none"
+                      className="block w-full px-4 py-3 mb-4 border-2 border-transparent border-gray-200 rounded-lg focus:ring focus:ring-green-600 focus:outline-none"
                       placeholder="Email Address"
                     ></input>
-                    <button className="w-full px-3 py-4 font-medium text-white bg-green-600 rounded-lg">
+                    <button className="w-full px-3 py-4 font-medium text-white bg-green-600 rounded-lg hover:bg-green-500">
                       Get Rewarded
                     </button>
                   </div>
@@ -103,10 +103,10 @@ const Home: BlitzPage = () => {
           id="particles-js"
           className="absolute inset-x-0 w-full h-[120vh] md:h-[100vh] lg:h-[80vh] z-10 bg-green-500"
           style={{
-            "border-top-left-radius": "50% 10%",
-            "border-top-right-radius": "50% 10%",
-            "border-bottom-left-radius": "50% 10%",
-            "border-bottom-right-radius": "50% 10%",
+            borderTopLeftRadius: "50% 10%",
+            borderTopRightRadius: "50% 10%",
+            borderBottomLeftRadius: "50% 10%",
+            borderBottomRightRadius: "50% 10%",
           }}
         ></section>
         <section className="relative py-20 bg-transparent z-50">
