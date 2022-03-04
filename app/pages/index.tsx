@@ -321,7 +321,7 @@ const Home: BlitzPage = () => {
               <div className="w-full border border-gray-200 rounded-lg shadow-sm">
                 <div className="flex flex-col items-center justify-center p-10">
                   <h2 className="text-lg font-medium">Kayden Nguyen</h2>
-                  <p className="font-medium text-blue-500">Graphic Designer</p>
+                  <p className="font-medium text-blue-500">UX/UI Designer</p>
                   <p className="text-gray-400">knguyen101@myseneca.ca</p>
                 </div>
 
